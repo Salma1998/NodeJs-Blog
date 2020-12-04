@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Profile</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <h1 class="logo">logo.</h1>
+        <input placeholder="Search...">
+        <h3>name</h3>
+        <img src="./puffin.jpg" alt="img">
+    </nav>
+    <section class="profile-section">
+        <div class="user-info-profile">
+            <img alt="img" src="./puffin.jpg">
+            <h1>name</h1>
+            <h2>email</h2>
+            <div class="input-profile">
+                <p>Name</p>
+                <input value="name">
+                <button class="nav-btn2 updateBtn">Update</button>
+            </div>
+        </div>
+        <div class="user-articles-profile">
+            <h1>My blogs</h1>
+            <div>
+                <div class="coll-article-profile">
+                    <p class="td1">name</p>
+                    <p class="td1">4 times</p>
+                    <p class="td1 td1-date">date</p>
+                    <button class="td1 nav-btn1 deleteBtn">Delete</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+        nav h3 {
+            color: #6d6d6d;
+            font-weight: bold;
+            font-size: 15px;
+            text-align: center;
+            margin: auto 10px;
+        }
+        
+        nav img {
+            width: 40px;
+            height: 40px;
+            border-radius: 40px;
+            margin: auto 10px;
+        }
+        
+        .deleteBtn {
+            color: #ff0109;
+        }
+        
+        .coll-article-profile {
+            display: inline-flex;
+            width: 100%;
+            border-radius: 5px;
+            border: 2px solid #dddddd;
+            padding: 2px 0px 2px 5px;
+        }
+        
+        .td1 {
+            font-weight: bold;
+            font-size: 15px;
+            width: 24%;
+            margin: auto;
+        }
+        
+        .td1-date {
+            color: #acacac;
+        }
+        
+        .updateBtn {
+            margin-right: 0;
+        }
+        
+        .input-profile input {
+            width: -webkit-fill-available;
+            display: block;
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .input-profile {
+            width: 100%;
+            text-align: right;
+        }
+        
+        .profile-section {
+            display: inline-flex;
+            width: 70%;
+            margin: 2% 15%;
+        }
+        
+        .user-info-profile {
+            display: block;
+            width: 30%;
+            text-align: center;
+            margin: 0 1% 0 0;
+        }
+        
+        .user-articles-profile {
+            display: block;
+            width: 69%;
+        }
+        
+        .user-info-profile img {
+            margin-top: 30px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        
+        .user-info-profile h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 0%;
+        }
+        
+        .user-info-profile h2 {
+            color: #6d6d6d;
+            font-size: 22px;
+            margin-top: 2%;
+        }
+        
+        .user-info-profile p {
+            text-align: left;
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+    </style>
+</body>
+
+</html>

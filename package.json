@@ -1,0 +1,28 @@
+{
+  "name": "formation",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:dev": "nodemon app.js"
+  },
+  "author": "benlgha",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.14",
+    "fs": "0.0.1-security",
+    "is-image": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15",
+    "mongoose-type-email": "^1.1.2",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,360 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    border-bottom: 1px solid #dddddd;
+    height: 60px;
+    margin: 0;
+    display: flex;
+    padding: 2px 5px;
+    box-shadow: 0 1px 3px #dddddd;
+}
+
+button {
+    margin: auto 0;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+input {
+    border: 1px solid #dddddd;
+    height: 41px;
+    width: 364px;
+    margin: auto;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.nav-btn1 {
+    width: 103px;
+    height: 40px;
+    background-color: #00000000;
+    border: 0px;
+    font-size: 13px;
+}
+
+.nav-btn2 {
+    background-color: #5f30ff;
+    color: #fff;
+    width: 103px;
+    height: 40px;
+    font-size: 13px;
+    border: 0px;
+    border-radius: 3px;
+    border-radius: 5px;
+}
+
+.categories-section {
+    padding: 10px 10%;
+}
+
+.categories-title {
+    font-size: 16px;
+}
+
+.categories {
+    display: flex;
+}
+
+.categories button {
+    background-color: #00000000;
+    margin: 5px;
+    border: 1px solid #dddddd;
+    color: #888888;
+    font-size: 14px;
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards {
+    padding: 10px 10%;
+    position: relative;
+    margin: 10px 0;
+}
+
+.card {
+    display: flex;
+    float: left;
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    position: relative;
+}
+
+.article-img {
+    margin: 1%;
+    width: 15%;
+}
+
+.article-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.article-info {
+    margin: auto;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    width: 85%;
+}
+
+.user-info {
+    font-size: 13px;
+    color: #888888;
+}
+
+.date {
+    position: absolute;
+    top: 6%;
+    right: 2%;
+    font-size: 13px;
+    color: #888888;
+}
+
+.article-title {
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 18px;
+    margin: 4px 0;
+}
+
+.user-info-div {
+    margin: auto 0;
+}
+
+.article-content {
+    line-height: 16px;
+    font-size: 14px;
+    margin: 0;
+    color: #424141;
+    font-weight: bold;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 11px;
+    color: #333;
+}
+
+.user-email {
+    font-size: 10px;
+    color: #888888;
+}
+
+.user-img {
+    margin-right: 7px;
+    display: flex;
+}
+
+.user-img img {
+    width: 29px;
+    height: 29px;
+    border-radius: 50px;
+}
+
+.div {
+    display: flex;
+    width: 80%;
+    margin: 10px 0 2px;
+}
+
+
+/************************************ Article Review *********************************************/
+
+.article-review-user-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+}
+
+.user-info-div {
+    margin: auto 1%;
+}
+
+.article-review {
+    width: 77%;
+    height: 340px;
+    margin: 0 auto 10px;
+}
+
+.article-review-img {
+    width: 100%;
+    height: 340px;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.article-review-user-name {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 5px 0;
+}
+
+.article-review-user-email {
+    font-size: 16px;
+    color: #888888;
+    font-weight: bold;
+}
+
+.article-review-article-title {
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 26px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.article-review-article-content {
+    font-size: 15.5px;
+    margin: 0;
+    font-weight: bold;
+    line-height: 18px;
+    color: #3e3d3d;
+}
+
+.article-review-user-info {
+    display: flex;
+}
+
+.article-review-date {
+    margin: 0 0 0 auto;
+    font-size: 13px;
+    color: #888888;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.read-times {
+    margin: 10px 0;
+    float: right;
+    font-weight: bold;
+    color: #363636;
+}
+
+
+/***************************** Sign In ************************/
+
+form input {
+    display: block;
+    width: 77%;
+    margin: 1% auto;
+}
+
+form {
+    font-weight: bold;
+    padding: 1% 0%;
+    border: 1px solid #cecece;
+    border-top: 4px solid #5f30ff;
+    position: fixed;
+    top: 30%;
+    left: 34%;
+    margin: auto;
+    width: 28%;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font-size: 15px;
+    margin: auto;
+    width: 80%;
+    color: #4e4e4e;
+}
+
+input[type=submit] {
+    margin: 4% auto 0;
+    width: 30%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5f30ff;
+}
+
+.Sign-in-title {
+    color: #404040;
+    margin: auto;
+    margin-bottom: 5%;
+    width: 80%;
+    font-size: 20px;
+}
+
+.bg-img-div img {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 20%;
+}
+
+
+/********************************* Edit Article **************************************/
+
+.article-edit h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.article-edit input {
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 25px;
+    color: #333;
+    width: 30%;
+}
+
+.textarea {
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 3%;
+    display: block;
+    width: 94%;
+    overflow: hidden;
+    resize: both;
+    min-height: 40px;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+.textarea[contenteditable]:empty::before {
+    content: "Placeholder still possible";
+    color: gray;
+}
+
+.cancel {
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    color: #333;
+}
+
+.btns {
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    form {
+        top: 30%;
+        left: 26%;
+        width: 50%;
+    }
+    .article-edit input {
+        width: 40%;
+    }
+}
